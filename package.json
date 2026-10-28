@@ -43,7 +43,7 @@
     "@nuxt/kit": "^4.6.2",
     "idb-keyval": "^6.2.2",
     "pinia-plugin-persistedstate-2": "^2.0.30",
-    "nuxt-desktop": "workspace:*"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
@@ -56,7 +56,7 @@
   "peerDependencies": {
     "@owdproject/core": ">=4.0.0-alpha.0",
     "@owdproject/nuxt-atproto": "workspace:*",
-    "nuxt-desktop": ">=1.0.0",
-    "pinia": "^3.0.0"
+    "pinia": "^3.0.0",
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   }
 }

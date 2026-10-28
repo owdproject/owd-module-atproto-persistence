@@ -1,6 +1,6 @@
 import { nextTick } from 'vue'
 import { defineNuxtPlugin } from 'nuxt/app'
-import { useApplicationManager } from '@owdproject/core/runtime/composables/useApplicationManager'
+import { useApplicationManager } from '@owdproject/nuxt/runtime/composables/useApplicationManager'
 
 const APP_ID = 'org.owdproject.todo'
 const WINDOW_MODEL = 'main'
