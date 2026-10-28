@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/nuxt-atproto-persistence",
-  "version": "0.0.4",
+  "version": "4.0.0-alpha.3",
   "description": "Pinia persistence via AT Protocol repository, ESM-friendly",
   "license": "MIT",
   "homepage": "https://github.com/atproto-os/module-atproto-persistence",
@@ -47,16 +47,21 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
-    "@owdproject/app-todo": "workspace:*",
-    "@owdproject/core": "workspace:*",
+    "@owdproject/app-todo": "^4.0.0-alpha.3",
+    "@owdproject/core": "^4.0.0-alpha.3",
     "nuxt": "^4.6.2",
     "pinia": "^3.0.0",
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
-    "@owdproject/core": ">=4.0.0-alpha.0",
-    "@owdproject/nuxt-atproto": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-atproto": "^4.0.0-alpha.3",
     "pinia": "^3.0.0",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "alpha",
+    "registry": "https://registry.npmjs.org/"
   }
 }
