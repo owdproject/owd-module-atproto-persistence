@@ -1,11 +1,11 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nova',
+  theme: '@owdproject/theme-nuxt-nova',
   modules: [
-    '@owdproject/nuxt-atproto',
-    '@owdproject/nuxt-atproto-persistence'
+    '@owdproject/module-nuxt-atproto',
+    '@owdproject/module-nuxt-atproto-persistence'
   ],
-  apps: ['@owdproject/app-todo'],
+  apps: ['@owdproject/app-nuxt-todo'],
   systemBar: { enabled: true, startButton: true },
 })
