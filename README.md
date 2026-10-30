@@ -10,7 +10,7 @@
 
 This module registers a Pinia persisted-state adapter backed by **IndexedDB**
 (`idb-keyval`) with optional sync to the user's AT Protocol repository. It
-replaces `@owdproject/module-persistence` — **do not install both** in the same
+replaces `@owdproject/nuxt-module-pinia-persistence` — **do not install both** in the same
 desktop.
 
 Boot order is handled without core coupling: the plugin runs in Nuxt's **pre**
