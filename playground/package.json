@@ -8,11 +8,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/app-nuxt-todo": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-app-todo": "^4.0.0-alpha.3",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/module-nuxt-atproto": "^4.0.0-alpha.3",
-    "@owdproject/module-nuxt-atproto-persistence": "workspace:*",
-    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-module-atproto": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-module-atproto-persistence": "workspace:*",
+    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4"
   }
 }
